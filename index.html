@@ -1,190 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="123.css">
-  <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satakshi portifolio</title>
+    <link rel="icon" type="image/jpg"/>
+</head>
+    
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <header>
-    <b>Satakshi</b>
-    <nav>
-      <ul>
-        <li><button type="button" style="right:490px;top:30px" ><a href="#home">Home</a></li></button>
-        <li><button type="button" style="right:390px;top:30px"><a href="#skills">Skills</a></li></button>
-        <li><button type="button" style="right:260px;top:30px"><a href="#education">Education</a></li></button>
-        <li><button type="button" style="right:120px;top:30px"><a href="#experience">Experience</a></li></button>
-        <li><button type="button" style="right:10px;top:30px"><a href="#contact">Contact</a></li></button>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+         <nav class="top-nav">
+             <ul class="nav-list">
+                 <li>
+                     <a href="index.html" class="nav-link">Home</a>
+                 </li>
+                 <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                 <li>
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li>
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                
+             </ul>
+         </nav>
+         <div class="landing-text">
+             <h1 data-text="Satakshi">Satakshi</h1>
+             <a href="" class="typewrite" data-period="1000" data-type='[ "Graphic Designer.", "Frontend Web Developer."]'></a><br><br><br>
+             <button type="button" style="background-color:rgba(6, 11, 99, 0.74); padding: 1%; border-radius: 50px;border-width: 0cap;" ><a href="https://www.linkedin.com/in/satakshi-13419524a/" style="color:white" target="_blank">LinkedIn</a></button>
+         </div>
+    </header>
 
-  <section id="home">
-    <div class="intro">
-      <div class="about-content">
-        <img src="1697552158695.jpeg" alt="Profile Picture">
-        <p><b>Satakshi<br>Passionate Web Developer | Graphic Designer</b><br>
-        I currently am pursuing B.tech from CSE with specialization in <br>information security.I seek new challenges and try to think out <br> of the box feasible solutions to a given problem. Also, I'm a<br> quick learner and believe in learning from my mistakes for I<br> strongly feel this virtue will take me ahead in life and career <br> and would add to my growth as an individual.</p><br>
-        <button type="button" style="background-color:rgb(6, 6, 92); right:700px; top:550px" ><a href="satakshi resume.pdf" style="color:white" target="_blank">View my resume</a></button>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="200">
+                <img class="imgprofile" src="images/profile.jpeg" alt="">
+            </div>
+        <div class="about-details" data-aos="fade-left" data-aos-delay="400">
+            <div class="about-heading">
+                <h1>About</h1>
+                <h6>me</h6>
+            </div>  
+                <p>
+                    Hello, I'm Satakshi... <br><br>
+                    Aspiring frontend web developer with a robust foundation in computer
+                    science and a specialization in information security. Proficient in
+                    various programming languages and web technologies, with a strong
+                    passion for developing innovative and efficient web solutions.
+                    Demonstrates a quick learning ability and adaptability, committed to
+                    continuous improvement and achieving excellence in the field.
+                    <br><br>
+                    <button type="button" style="background-color:rgba(49, 160, 207, 0.74); padding: 2%; border-radius: 50px;border-width: 0cap;" ><a href="satakshi resume.pdf" style="color:white" target="_blank">View Resume</a></button>
+                </p>
+                        
+                </div>
+                    
+            </div>            
 
-        
-      </div>
-    </div>
-  </section>
-  <div>
-    <section id="skills">
-      <h1 style="color:white; text-align:center; font-size:50px;">SKILLS</h1>
-      <div class="skills-container">
-        <div class="skill">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="python-removebg-preview.png" alt="Python" height="100px">
-                <p>Python</p>
-              </div>
-              <div class="flip-card-back">
-                <p>Skill level:<br><img src="Slice 2.png" height="30px"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="skill">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="c-removebg-preview.png" alt="C" height="100px">
-                <p>C</p>
-              </div>
-              <div class="flip-card-back">
-                <p>Skill level:<br><img src="Slice 1.png" height="30px"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="skill">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="c++-removebg-preview.png" alt="C++" height="100px">
-                <p>C++</p>
-              </div>
-              <div class="flip-card-back">
-                <p>Skill level:<br><img src="Slice 1.png" height="30px"></p>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="skill">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="java-removebg-preview.png" alt="Java" height="100px">
-                <p>Java</p>
-              </div>
-              <div class="flip-card-back">
-                <p>Skill level:<br><img src="Slice 1.png" height="30px"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="skill">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="html-removebg-preview.png" alt="HTML" height="100px">
-                <p>HTML</p>
-              </div>
-              <div class="flip-card-back">
-                <p>Skill level:<br><img src="Slice 4.png" height="30px"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="skill">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="css-removebg-preview.png" alt="CSS" height="100px">
-                <p>CSS</p>
-              </div>
-              <div class="flip-card-back">
-                <p>Skill level:<br><img src="Slice 4.png" height="30px"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="skill">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="canva-removebg-preview.png" alt="Canva" height="100px">
-                <p>Canva</p>
-              </div>
-              <div class="flip-card-back">
-                <p>Skill level:<br><img src="Slice 3.png" height="30px"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
-    
-  </div>
-<div>
-  <section id="education">
-    <h1 style="color:rgb(19, 2, 80);font-size: 50px; text-align: center;">Education</h1>
-    <div class="education-container">
-      <img src="vit logo.jpeg" alt="University">
-      <div class="education-description">
-        <h2>Vellore Institute Of Technology</h2>
-        <p>Degree: Bachelor of Science with specialization in information security</p>
-        <p>Year: 2022-2026 | Pursuing</p>
-      </div>
-    </div>
-    <div class="education-container">
-        <img src="lvs logo.jpeg" alt="University">
-        <div class="education-description">
-          <h2>Litera Valley School</h2>
-          <p>High School | Science</p>
-          <p>Year: 2010-2022 | Completed </p>
+
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Skills</h1>
+                <h6>Language</h6>
+            </div>
+            <div class="my-skills">
+                <div class="row" >
+                    <div class="col-5">
+                        <img src="./images/python-removebg-preview.png" data-aos="fade-in" data-aos-delay="600">
+                    </div>
+
+                    <div class="col-5">
+                        <img src="./images/c-removebg-preview.png" data-aos="fade-in" data-aos-delay="400">
+                    </div>
+
+                    <div class="col-5">
+                        <img src="./images/c++-removebg-preview.png" data-aos="fade-in" data-aos-delay="200">
+                    </div>
+
+                    <div class="col-5">
+                        <img src="./images/java-logo.png" data-aos="fade-in" data-aos-delay="400">
+                    </div>
+
+                </div>
+
+                <div class="row" >
+                    <div class="col-5">
+                        
+                        <img src="./images/html-logo.png" data-aos="fade-in" data-aos-delay="400">
+                    </div>
+
+                    <div class="col-5">
+                        <img src="./images/javascript-logo.png" data-aos="fade-in" data-aos-delay="200">
+                    </div>
+
+                    <div class="col-5">
+                        <img src="./images/css-logo.png" data-aos="fade-in" data-aos-delay="400">
+                    </div>
+
+                    <div class="col-5">
+                        <img src="./images/reactnative-logo.png"data-aos="fade-in" data-aos-delay="600">
+                    </div>
+                </div>
+                <div>
+                    <p>Python</p>
+                    <div class="container-skills">
+                    <div class="skills python">70%</div>
+                    </div>
+                    <br>
+                    <p>C/C++</p>
+                    <div class="container-skills">
+                    <div class="skills c">85%</div>
+                    </div>
+                    <br>
+                    <p>Java</p>
+                    <div class="container-skills">
+                    <div class="skills java">80%</div>
+                    </div>
+                    <br>
+                    <p>HTML,CSS</p>
+                    <div class="container-skills">
+                    <div class="skills html">95%</div>
+                    </div>
+                    <br>
+                    <p>Javascript,React</p>
+                    <div class="container-skills">
+                    <div class="skills js">60%</div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-      </div>
-  </section>
-</div>
-<section id="experience">
-  <h1 style="color:rgb(19, 2, 80);font-size: 50px; text-align: center;">Experience</h1>
-  <div class="timeline">
-    <div class="container left">
-      <div class="content">
-        <h2>2024</h2>
-        <p> <b>Web Dev Intern:</b><br> OASIS Infobyte</p>
-      </div>
-    </div>
+    </section>
 
-    <div class="container right">
-      <div class="content">
-        <h2>2023-present</h2>
-        <p><b>Design Head:</b><br> F.E.P.S.I</p>
-      </div>
-    </div>
-  </div>
-</section>
+    
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Education</h1>
+            </div>
 
-  <footer>
-  <section id="contact">
-    <div class="contact-links">
-      E-mail:<a href="mailto:satakshi2703@gmail.com" style="color:white">satakshi2703@gmail.com</a><br>
-      Phone<a href="tel:+1234567890" style="color:white">+91 76670 13694</a><br>
-      <a href="www.linkedin.com/in/satakshi-13419524a" target="_blank" style="color:white">View my LinkedIn profile</a>
-    </div>
-  </section>
-</footer>
+            <div class="portifolio-item">
+                <div class="education-container">
+                    <div class="education-img" data-aos="fade-right" data-aos-delay="200">
+                        <img class="imgeducation" src="images/vit logo.jpeg" alt="">
+                    </div>
+                    <div class="education-description">
+                      <h2>Vellore Institute Of Technology</h2>
+                      <p>Degree: Bachelor of Science with specialization in information security</p>
+                      <p>Year: 2022-2026 | Pursuing</p>
+                    </div>
+                  </div>
+                  <div class="education-container">
+                    <div class="education-img" data-aos="fade-right" data-aos-delay="200">
+                        <img class="imgeducation" src="images/lvs logo.jpeg" alt="">
+                    </div>
+                      <div class="education-description">
+                        <h2>Litera Valley School</h2>
+                        <p>High School | Science</p>
+                        <p>Year: 2010-2022 | Completed </p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>    
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Experience</h1>
+            </div>
+
+            <div class="portifolio-item">
+                    <div class="experience-container">
+                        <div class="experience-description">
+                          <h2>Bharat Intern</h2>
+                          <p>Web Developer Intern</p>
+                          <p>Mar 2024 - Apr 2024 </p>
+                          <br><br>
+                            <p>
+                                <ul>
+                                    <li>Played a key role in developing and enhancing dynamic, responsive web applications.</li>
+                                    <li>Acquired practical experience across multiple phases of the software development life cycle.</li>
+                                    <li>Collaborated closely with the design team to create visually appealing and user-friendly interfaces using HTML, CSS, and JavaScript.</li>    
+                                    <li> Ensured cross-browser compatibility and optimized web pages for peak performance</li>  
+                                </ul>
+                            </p>
+                        </div>
+                        </div>
+                        <div class="experience-container">
+                          <div class="experience-description">
+                            <h2>Oasis Infobyte</h2>
+                            <p>Web Developer Intern</p>
+                            <p>Feb 2024 - Mar 2024 </p>
+                            <br><br>
+                            <p>
+                                <ul>
+                                    <li>Assisted in the creation and maintenance of visually appealing and intuitive user interfaces, ensuring a seamless user experience.</li>
+                                    <li>Contributed to the development of interactive web applications using HTML, CSS, and JavaScript.</li>
+                                    <li>Adhered to industry best practices and coding standards to ensure high-quality code and maintainability.</li>
+                                </ul>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="experience-container">
+                            <div class="experience-description">
+                              <h2>Forum for Empowering People Through Social Innovation and Entertainment (F.E.P.S.I)</h2>
+                              <p>Design Head</p>
+                              <p>Feb 2024 - Present</p>
+                              <br><br>
+                              <p>
+                                <ul>
+                                    <li>Leading the design team in creating innovative and visually appealing designs using Canva and Figma.</li>
+                                    <li>Developed and implemented design strategies to enhance the brand's visual identity and user engagement.</li>
+                                    <li>Ensured all design outputs met high-quality standards and aligned with the organization's goals.</li>
+                                    <li>Collaborated with cross-functional teams to integrate design solutions into various projects and campaigns.</li>
+                                </ul>
+                              </p>
+                            </div>
+                          </div>   
+                </div>
+            </div>
+
+        </div>    
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact me</h1>
+                <h6>Explore the avenues to reach out to me!</h6>
+            </div>
+            <div class="contact-me-section">
+                <div class="contact-item">
+                    <div class="icon">
+                        <i class="material-icons" style="font-size:60px;">place</i>
+                      </div>
+                  <div class="details">
+                    <h2 style="font-size: x-large;">Address</h2>
+                    <br>
+                    <p><a href="https://en.wikipedia.org/wiki/Patna" style="font-size: large;">Patna, India</a</p>
+                  </div>
+                </div>
+                
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="material-icons" style="font-size:60px;">phone</i>
+                  </div>
+                  <div class="details">
+                    <h2 style="font-size: x-large;">Contact number</h2>
+                    <br>
+                    <p><a href="tel:+1234567890" style="font-size: large;">+91 76670 13694</a></p>
+                  </div>
+                </div>
+                
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="material-icons" style="font-size:60px;">mail</i>
+                  </div>
+                  <div class="details">
+                    <h2 style="font-size: x-large;">E-mail Address</h2>
+                    <br>
+                    <p><a href="mailto:satakshi2703@gmail.com" style="font-size: large;">satakshi2703@gmail.com</a></p>
+                  </div>
+                </div>
+              </div>
+              <br><br><br><br><br><br>
+            
+            
+              <div class="contact-item">
+                <div class="icon">
+                    <p>Connect with me on:</p>
+                    <a href="https://www.linkedin.com/in/satakshi-13419524a/" class="fa fa-linkedin"></a>
+                    <a href="https://www.instagram.com/satakshi_2703/" class="fa fa-instagram"></a>
+                    <a href="https://github.com/Satakshi2703" class="fa fa-github"></a>
+                    
+                </div>
+                
+              </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <div class="up" id="up">
+                <i class="fa fa-chevron-up"></i>                 
+            </div>
+            <p>Copyright &copy;2024 All rights reserved | Made by Satakshi</p> 
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
